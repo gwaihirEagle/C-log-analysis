@@ -1,0 +1,64 @@
+[**] WEB-IIS view source via translate header [**]
+01/28-10:26:57.490909 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40669 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0x1BF65EFE  Ack: 0x809A76FD  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+chybi kod utoku a 2. radka
+
+[**] [1:1042:4] WEB-IIS [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.511731 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40670 IpLen:20 DgmLen:226 DF
+***AP*** Seq: 0x1BF65FB9  Ack: 0x809A79AB  Win: 0xF842  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+chybi popis varianty
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01.28-10.26.57.520300 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40671 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0x1BF66073  Ack: 0x809A7C3E  Win: 0xF5AF  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+netisknutelny znak, chybny format datumu a casu
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/DO 147.228.63.1100 -> 147.228.670.80
+TCP TTL:127 TOS:0x0 ID:40672 IpLen:20 DgmLen:226 DF
+***AP*** Seq: 0x1BF6612E  Ack: 0x809A7EEB  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+nesmyslny datum a cas, nesmyslne IP adresy
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.535817 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40673 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x1BF661E8  Ack: 0x809A817E  Win: 0xF85D  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.542689 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:406740 IpLen:20 DgmLen:209 DF ***AP*** Seq: 0x1BF6627E  Ack: 0x809A82CE  Win: 0xF70D  TcpLen: 20 [Xref => http://www.whitehats.com/info/IDS305] [Xref => http://www.securityfocus.com/bid/1578] ***AP*** Seq: 0x2E0CB4A3  Ack: 0x975C4
+dva zaznamy spojene k sobe, radka dlouha 255 znaku
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**][Classification:  sid] [Priority: 2]
+01/28-10:26:57.549351 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40675 IpLen:20 DgmLen:208 DF
+***AP*** Seq: 0x1BF66327  Ack: 0x809A857B  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+spojena 1. a 2. radka zaznamu
+
+[**] [1:1171:4] WEB-MISC whisker HEAD with large datagram [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:33:05.280411 192.18.240.6:61888 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x0 ID:62885 IpLen:20 DgmLen:733
+***AP*** Seq: 0x2E0CB4A3  Ack: 0x975C42E7  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.wiretrip.net/rfp/pages/whitepapers/whiskerids.html]
+zas jeden vyhovujici zaznam
+

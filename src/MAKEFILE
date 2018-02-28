@@ -1,0 +1,18 @@
+snort.exe: styb-main.o styb-io.o styb-nacti.o styb-vyst.o styb-dyna.o
+	gcc styb-main.o styb-io.o styb-nacti.o styb-vyst.o styb-dyna.o -o $@
+	@echo Hotovo.
+
+styb-main.o: styb-main.c styb-main.h styb-io.h
+	gcc -c styb-main.c
+
+styb-io.o: styb-io.c styb-io.h styb-main.h styb-vyst.h styb-nacti.h styb-dyna.h
+	gcc -c styb-io.c
+
+styb-nacti.o: styb-nacti.c styb-nacti.h styb-main.h styb-io.h styb-dyna.h styb-vyst.h 
+	gcc -c styb-nacti.c
+
+styb-vyst.o: styb-vyst.c styb-vyst.h styb-io.h styb-main.h
+	gcc -c styb-vyst.c
+
+styb-dyna.o: styb-dyna.c styb-dyna.h styb-io.h styb-main.h styb-vyst.h
+	gcc -c styb-dyna.c

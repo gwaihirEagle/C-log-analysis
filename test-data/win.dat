@@ -1,0 +1,2539 @@
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-09:59:51.256638 194.108.76.2:39081 -> 147.228.67.60:80
+TCP TTL:51 TOS:0x20 ID:10581 IpLen:20 DgmLen:522
+***AP*** Seq: 0x86BB76B4  Ack: 0x197770CD  Win: 0x4000  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:00:16.049457 194.108.76.2:39087 -> 147.228.67.60:80
+TCP TTL:51 TOS:0x20 ID:10958 IpLen:20 DgmLen:552
+***A**** Seq: 0x2F0FE0AC  Ack: 0x1B70BB4F  Win: 0x4000  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:00:27.557173 194.108.76.2:39089 -> 147.228.67.60:80
+TCP TTL:51 TOS:0x20 ID:11104 IpLen:20 DgmLen:361
+***AP*** Seq: 0x3BFA6628  Ack: 0x1C555278  Win: 0x4000  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:00:39.804516 194.108.76.2:39091 -> 147.228.67.60:80
+TCP TTL:51 TOS:0x20 ID:11332 IpLen:20 DgmLen:552
+***A**** Seq: 0x6FD2A70C  Ack: 0x1D1EF9FC  Win: 0x4000  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:00:46.304305 194.108.76.2:39092 -> 147.228.67.60:80
+TCP TTL:51 TOS:0x20 ID:11449 IpLen:20 DgmLen:361
+***AP*** Seq: 0x12554521  Ack: 0x1D3A63C2  Win: 0x4000  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:00:57.885897 194.108.76.2:39094 -> 147.228.67.60:80
+TCP TTL:51 TOS:0x20 ID:11656 IpLen:20 DgmLen:552
+***A**** Seq: 0x8218A4D9  Ack: 0x1E17913F  Win: 0x4000  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:02:18.703074 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2684 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:512  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:02:21.107125 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2693 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:768  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:02:23.110866 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2698 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1024  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:02:25.113635 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2699 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1280  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:09:48.220822 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2268 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:512  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:09:50.496516 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2279 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:768  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:09:52.500245 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2284 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1024  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:09:54.501985 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2285 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1280  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:22:37.044162 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1375 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:3072  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:22:37.694606 147.228.209.2:1027 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:24517 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x79443E6F  Ack: 0x6F78CFD8  Win: 0x43E0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 26528 101771688 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:22:39.523833 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1382 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:3328  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:22:41.527448 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1384 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:3584  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:22:43.529584 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1385 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:3840  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:1141:4] WEB-MISC handler access [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:55.705510 216.39.48.182:45407 -> 147.228.67.60:80
+TCP TTL:44 TOS:0x0 ID:53946 IpLen:20 DgmLen:287 DF
+***AP*** Seq: 0x7FA61669  Ack: 0x7FFAEA6E  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 341755108 101797792 
+[Xref => http://www.securityfocus.com/bid/380]
+[Xref => http://www.whitehats.com/info/IDS235]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0148]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.490909 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40669 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0x1BF65EFE  Ack: 0x809A76FD  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.511731 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40670 IpLen:20 DgmLen:226 DF
+***AP*** Seq: 0x1BF65FB9  Ack: 0x809A79AB  Win: 0xF842  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.520300 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40671 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0x1BF66073  Ack: 0x809A7C3E  Win: 0xF5AF  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.526095 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40672 IpLen:20 DgmLen:226 DF
+***AP*** Seq: 0x1BF6612E  Ack: 0x809A7EEB  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.535817 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40673 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x1BF661E8  Ack: 0x809A817E  Win: 0xF85D  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.542689 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40674 IpLen:20 DgmLen:209 DF
+***AP*** Seq: 0x1BF6627E  Ack: 0x809A82CE  Win: 0xF70D  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-10:26:57.549351 147.228.63.174:1100 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:40675 IpLen:20 DgmLen:208 DF
+***AP*** Seq: 0x1BF66327  Ack: 0x809A857B  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1171:4] WEB-MISC whisker HEAD with large datagram [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-10:33:05.280411 192.18.240.6:61888 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x0 ID:62885 IpLen:20 DgmLen:733
+***AP*** Seq: 0x2E0CB4A3  Ack: 0x975C42E7  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.wiretrip.net/rfp/pages/whitepapers/whiskerids.html]
+
+[**] [1:1260:3] WEB-MISC long basic authorization string [**]
+[Classification: Attempted Denial of Service] [Priority: 2]
+01/28-10:37:38.969438 147.228.63.32:4070 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1433
+***AP*** Seq: 0xA8886051  Ack: 0xC0964FF6  Win: 0x22F6  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/3230]
+
+[**] [1:1260:3] WEB-MISC long basic authorization string [**]
+[Classification: Attempted Denial of Service] [Priority: 2]
+01/28-10:39:37.832678 147.228.63.32:4075 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1189
+***AP*** Seq: 0xAA45BA84  Ack: 0xC112B985  Win: 0x4524  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/3230]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-10:42:59.137086 147.228.57.10:43505 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1592
+***AP*** Seq: 0xBCE18610  Ack: 0xBC5C6292  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-10:43:24.415676 147.228.57.20:52128 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1595
+***AP*** Seq: 0xBD8057D2  Ack: 0xBD3E482E  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1602:2] WEB-CGI htsearch access [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:12:14.884414 147.228.67.101:1658 -> 147.228.67.60:80
+TCP TTL:128 TOS:0x0 ID:28709 IpLen:20 DgmLen:405 DF
+***AP*** Seq: 0x2695B55E  Ack: 0x287A1EAF  Win: 0x3F62  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0208]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.646344 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26290 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x55B4B84E  Ack: 0x66E2A3B6  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.666192 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26291 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x55B4B90C  Ack: 0x66E2A650  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.674535 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26292 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x55B4B9C9  Ack: 0x66E2A8E6  Win: 0xF5C0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.680319 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26293 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x55B4BA87  Ack: 0x66E2AB7F  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.690556 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26295 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x55B4BB44  Ack: 0x66E2AE15  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.696247 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26296 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x55B4BBDA  Ack: 0x66E2AF65  Win: 0xF70A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:28:03.701659 147.228.63.177:1973 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26297 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x55B4BC86  Ack: 0x66E2B1FE  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.066818 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26393 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x5701A57E  Ack: 0x6C964EA1  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.075334 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26394 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x5701A63C  Ack: 0x6C96513B  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.083722 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26395 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x5701A6F9  Ack: 0x6C9653D1  Win: 0xF5C0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.089461 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26396 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x5701A7B7  Ack: 0x6C96566A  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.099173 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26397 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x5701A874  Ack: 0x6C965900  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.106045 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26398 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x5701A90A  Ack: 0x6C965A50  Win: 0xF70A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:29:38.112611 147.228.63.177:1978 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:26399 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x5701A9B6  Ack: 0x6C965CE9  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:43.706059 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15706 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x96515ACE  Ack: 0x96362C8B  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249128876 102240578 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:43.980087 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15708 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x96515BFC  Ack: 0x96362F25  Win: 0x1A04  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249128903 102240600 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:44.242321 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15710 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x96515D29  Ack: 0x96363213  Win: 0x203A  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249128929 102240628 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:44.849023 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15711 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x96515D29  Ack: 0x96363213  Win: 0x203A  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249128991 102240628 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:45.118688 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15712 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x96515E57  Ack: 0x963634AC  Win: 0x2616  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249129015 102240716 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:45.381891 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15714 IpLen:20 DgmLen:314 DF
+***AP*** Seq: 0x96515F84  Ack: 0x9636379A  Win: 0x2BF2  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249129044 102240742 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:45.580619 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15716 IpLen:20 DgmLen:336 DF
+***AP*** Seq: 0x9651608A  Ack: 0x963638DC  Win: 0x31CE  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249129064 102240768 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:40:45.800827 147.228.209.2:59142 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:15717 IpLen:20 DgmLen:335 DF
+***AP*** Seq: 0x965161A6  Ack: 0x96363B75  Win: 0x37AA  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249129086 102240788 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:52:14.288145 195.222.36.203:1046 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:26369 IpLen:20 DgmLen:282 DF
+***AP*** Seq: 0x1E371D  Ack: 0xC23228F9  Win: 0x2180  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:52:15.905748 195.222.36.203:1050 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:29185 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x1E403F  Ack: 0xC21D6AE2  Win: 0x2180  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.645402 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52427 IpLen:20 DgmLen:368 DF
+***AP*** Seq: 0xDBB0A89F  Ack: 0xDB4CC4CF  Win: 0x7D78  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733082 102350288 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.670023 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52445 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0xDBB0A9DB  Ack: 0xDB4CC77D  Win: 0x7C70  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733085 102350291 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.737418 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52497 IpLen:20 DgmLen:368 DF
+***AP*** Seq: 0xDBB0AB16  Ack: 0xDB4CCA10  Win: 0x7C70  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733092 102350294 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.767369 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52514 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0xDBB0AC52  Ack: 0xDB4CCCBD  Win: 0x7C70  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733095 102350300 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.821114 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52596 IpLen:20 DgmLen:349 DF
+***AP*** Seq: 0xDBB0AD8D  Ack: 0xDB4CCF50  Win: 0x7C70  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733100 102350304 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.863299 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52628 IpLen:20 DgmLen:368 DF
+***AP*** Seq: 0xDBB0AEB6  Ack: 0xDB4CD092  Win: 0x7C70  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733104 102350309 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-11:59:00.879655 160.217.9.242:1215 -> 147.228.67.60:80
+TCP TTL:59 TOS:0x0 ID:52638 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0xDBB0AFF2  Ack: 0xDB4CD33F  Win: 0x7C70  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 534733106 102350313 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:08:30.607193 147.228.209.2:1087 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:1212 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xE87B9A85  Ack: 0xFF85BD92  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:08:31.981130 147.228.209.2:1091 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:1224 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xE8841A1E  Ack: 0xFF9A5129  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:10:29.574406 147.228.209.2:1102 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:1470 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xEA4C610D  Ack: 0x5E7912A  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:10:32.825092 147.228.209.2:1103 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:1480 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xEA4E2015  Ack: 0x685D234  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-12:11:51.906115 147.228.67.60:80 -> 216.39.48.88:56577
+TCP TTL:64 TOS:0x0 ID:26880 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xAF683EC  Ack: 0xBA4C066  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 102427415 334489665 
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:14:44.705776 147.228.209.2:41572 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:65024 IpLen:20 DgmLen:355 DF
+***AP*** Seq: 0x16667912  Ack: 0x16BD6828  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249332996 102444672 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:14:45.298901 147.228.209.2:41572 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:65025 IpLen:20 DgmLen:355 DF
+***AP*** Seq: 0x16667912  Ack: 0x16BD6828  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249333056 102444672 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:14:45.775697 147.228.209.2:41572 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:65027 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x16667A41  Ack: 0x16BD6AC2  Win: 0x1A04  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249333103 102444769 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:14:46.026367 147.228.209.2:41572 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:65029 IpLen:20 DgmLen:355 DF
+***AP*** Seq: 0x16667B6F  Ack: 0x16BD6D58  Win: 0x1F38  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249333128 102444802 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:14:46.600724 147.228.209.2:41572 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:65030 IpLen:20 DgmLen:355 DF
+***AP*** Seq: 0x16667B6F  Ack: 0x16BD6D58  Win: 0x1F38  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249333185 102444802 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:14:46.900953 147.228.209.2:41572 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:65031 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x16667C9E  Ack: 0x16BD6FF1  Win: 0x246C  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249333216 102444897 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:16:35.348045 147.228.209.2:1166 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:2398 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xEFE1E85F  Ack: 0x1CED4230  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:16:36.004010 147.228.209.2:1167 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:2407 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xEFE5C10C  Ack: 0x1CF7E546  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:21:44.760924 147.228.209.2:1190 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:3404 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xF489E66B  Ack: 0x30753462  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:21:44.890038 147.228.209.2:1194 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:3413 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xF48CFC66  Ack: 0x30D95CAD  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.771788 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46706 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x87824B21  Ack: 0x4151EEF2  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.784338 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46707 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x87824BDF  Ack: 0x4151F18C  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.793777 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46708 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x87824C9C  Ack: 0x4151F422  Win: 0xF5C0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.800453 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46709 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x87824D5A  Ack: 0x4151F6BB  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.810240 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46710 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x87824E17  Ack: 0x4151F951  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.817068 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46711 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x87824EAD  Ack: 0x4151FAA1  Win: 0xF70A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:25:59.823766 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46712 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x87824F59  Ack: 0x4151FD3A  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:26:08.066174 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46746 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x87825004  Ack: 0x4151FFD0  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:26:08.072095 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46747 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x878250C2  Ack: 0x41520269  Win: 0xF5C1  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:26:08.081316 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46748 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x8782517F  Ack: 0x415204FF  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:26:08.087955 147.228.63.177:2630 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:46749 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x8782523D  Ack: 0x41520798  Win: 0xF857  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.604313 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22179 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0xB97A6CCA  Ack: 0x50B7F100  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.628593 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22180 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0xB97A6D88  Ack: 0x50B7F39A  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.636941 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22181 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0xB97A6E45  Ack: 0x50B7F630  Win: 0xF5C0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.645868 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22182 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0xB97A6F03  Ack: 0x50B7F8C9  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.657025 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22184 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0xB97A6FC0  Ack: 0x50B7FB5F  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.663870 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22185 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0xB97A7056  Ack: 0x50B7FCAF  Win: 0xF70A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:30:13.670529 147.228.63.172:1551 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:22186 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0xB97A7102  Ack: 0x50B7FF48  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:32:50.263346 12.96.243.166:2580 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:42518 IpLen:20 DgmLen:316 DF
+***AP*** Seq: 0x46061CF7  Ack: 0x5B1D497A  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:32:50.265462 12.96.243.166:2581 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:43030 IpLen:20 DgmLen:316 DF
+***AP*** Seq: 0x46061D04  Ack: 0x5B46F4E3  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:32:50.333525 12.96.243.166:2583 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:46870 IpLen:20 DgmLen:318 DF
+***AP*** Seq: 0x46061D15  Ack: 0x5B643B9C  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:32:50.391288 12.96.243.166:2586 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:48918 IpLen:20 DgmLen:318 DF
+***AP*** Seq: 0x46061D22  Ack: 0x5B6079C8  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:35:29.227010 147.228.209.2:1255 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:5223 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xE9FB29  Ack: 0x6530F4D6  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:35:29.780808 147.228.209.2:1259 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:5232 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xEF78AC  Ack: 0x64D88438  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:59:51.551177 147.228.209.2:1618 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:12588 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0x1794003E  Ack: 0xC0C7A75C  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-12:59:51.756085 147.228.209.2:1622 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:12596 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0x17983A4A  Ack: 0xC089B6E5  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.899234 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:951 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0xAFEE6E84  Ack: 0xF09EFEAD  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.906989 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:952 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0xAFEE6F42  Ack: 0xF09F0147  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.915049 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:953 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0xAFEE6FFF  Ack: 0xF09F03DD  Win: 0xF5C0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.920827 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:954 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0xAFEE70BD  Ack: 0xF09F0676  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.929211 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:955 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0xAFEE717A  Ack: 0xF09F090C  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.934865 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:956 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0xAFEE7210  Ack: 0xF09F0A5C  Win: 0xF70A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:12:45.940331 147.228.63.177:3173 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:957 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0xAFEE72BC  Ack: 0xF09F0CF5  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-13:13:36.232517 147.228.57.20:32876 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1588
+***AP*** Seq: 0xF4EAB9D7  Ack: 0xF59290E3  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:04.769279 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:17545 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0xCC3C9411  Ack: 0xFACF4BBE  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:04.942241 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:17593 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0xCC3C94CF  Ack: 0xFACF4E58  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:05.175991 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:17740 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0xCC3C958C  Ack: 0xFACF50EE  Win: 0xF5C0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:05.467101 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:17794 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0xCC3C964A  Ack: 0xFACF5387  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:05.620525 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:17891 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0xCC3C9707  Ack: 0xFACF561D  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:05.959366 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:17942 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0xCC3C979D  Ack: 0xFACF576D  Win: 0xF70A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:15:06.109699 147.228.63.179:4195 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:18032 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0xCC3C9849  Ack: 0xFACF5A06  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-13:15:06.866244 147.228.57.20:33081 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1595
+***AP*** Seq: 0xFA55EEE2  Ack: 0xFA81B762  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:15:26.588472 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:3603 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:4864  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:15:28.800911 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:3604 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:5120  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:15:30.813509 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:3606 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:5376  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:15:33.306799 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:3607 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:5632  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:10.153966 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46879 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3A602CA9  Ack: 0x3A8B9A46  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797580 102909203 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:10.407778 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46881 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3A602DD7  Ack: 0x3A8B9CE0  Win: 0x1A04  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797605 102909227 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:10.704661 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46883 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3A602F04  Ack: 0x3A8B9FCE  Win: 0x203A  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797632 102909255 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:10.966642 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46885 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3A603032  Ack: 0x3A8BA267  Win: 0x2616  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797660 102909282 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:11.220710 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46887 IpLen:20 DgmLen:314 DF
+***AP*** Seq: 0x3A60315F  Ack: 0x3A8BA555  Win: 0x2BF2  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797693 102909308 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:11.483044 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46889 IpLen:20 DgmLen:336 DF
+***AP*** Seq: 0x3A603265  Ack: 0x3A8BA697  Win: 0x31CE  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797719 102909334 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:11.641965 147.228.209.2:49733 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:46891 IpLen:20 DgmLen:335 DF
+***AP*** Seq: 0x3A603381  Ack: 0x3A8BA930  Win: 0x37AA  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249797735 102909360 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:36.331482 147.228.209.2:50211 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:45772 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3D3C173E  Ack: 0x3B8E4017  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249800202 102911829 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:36.558049 147.228.209.2:50211 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:45774 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3D3C186C  Ack: 0x3B8E42B1  Win: 0x1A04  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249800225 102911845 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:36.835413 147.228.209.2:50211 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:45775 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3D3C1999  Ack: 0x3B8E459F  Win: 0x203A  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249800249 102911868 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:37.127854 147.228.209.2:50211 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:45777 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3D3C1AC7  Ack: 0x3B8E4838  Win: 0x2616  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249800282 102911895 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:32:38.023876 147.228.209.2:50211 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:45778 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3D3C1AC7  Ack: 0x3B8E4838  Win: 0x2616  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249800375 102911895 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:14.701794 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60418 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3FB558F0  Ack: 0x3DF0073C  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804035 102915656 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:14.892573 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60420 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3FB55A1E  Ack: 0x3DF009D6  Win: 0x1A04  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804060 102915682 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:15.118049 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60421 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3FB55B4B  Ack: 0x3DF00CC4  Win: 0x203A  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804084 102915701 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:15.375784 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60422 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3FB55C79  Ack: 0x3DF00F5D  Win: 0x2616  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804109 102915723 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:15.612202 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60423 IpLen:20 DgmLen:314 DF
+***AP*** Seq: 0x3FB55DA6  Ack: 0x3DF0124B  Win: 0x2BF2  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804134 102915749 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:15.843864 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60424 IpLen:20 DgmLen:336 DF
+***AP*** Seq: 0x3FB55EAC  Ack: 0x3DF0138D  Win: 0x31CE  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804155 102915773 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:16.115463 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60425 IpLen:20 DgmLen:335 DF
+***AP*** Seq: 0x3FB55FC8  Ack: 0x3DF01626  Win: 0x37AA  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249804182 102915796 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:25.206216 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60427 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3FB560E3  Ack: 0x3DF01914  Win: 0x3D86  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249805090 102915823 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:25.439048 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60429 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3FB56211  Ack: 0x3DF01BAD  Win: 0x4362  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249805116 102916732 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:25.714953 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60430 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0x3FB5633E  Ack: 0x3DF01E9B  Win: 0x493E  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249805142 102916756 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:33:25.974294 147.228.209.2:50833 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:60432 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0x3FB5646C  Ack: 0x3DF02134  Win: 0x4F1A  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249805170 102916783 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1171:4] WEB-MISC whisker HEAD with large datagram [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:37:46.985072 192.18.1.5:64205 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x0 ID:25143 IpLen:20 DgmLen:725 DF
+***AP*** Seq: 0x14959544  Ack: 0x4F76C541  Win: 0x2238  TcpLen: 20
+[Xref => http://www.wiretrip.net/rfp/pages/whitepapers/whiskerids.html]
+
+[**] [1:1171:4] WEB-MISC whisker HEAD with large datagram [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:38:04.082593 192.18.1.5:64437 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x0 ID:25240 IpLen:20 DgmLen:722 DF
+***AP*** Seq: 0x168BAD50  Ack: 0x50F963BC  Win: 0x2238  TcpLen: 20
+[Xref => http://www.wiretrip.net/rfp/pages/whitepapers/whiskerids.html]
+
+[**] [1:1171:4] WEB-MISC whisker HEAD with large datagram [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:38:14.906311 192.18.1.9:49804 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x0 ID:28757 IpLen:20 DgmLen:729 DF
+***AP*** Seq: 0x32467E0A  Ack: 0x51572174  Win: 0x2238  TcpLen: 20
+[Xref => http://www.wiretrip.net/rfp/pages/whitepapers/whiskerids.html]
+
+[**] [1:1171:4] WEB-MISC whisker HEAD with large datagram [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-13:38:28.324176 192.18.1.5:64766 -> 147.228.67.60:80
+TCP TTL:240 TOS:0x0 ID:25443 IpLen:20 DgmLen:718 DF
+***AP*** Seq: 0x1901FBC3  Ack: 0x51B3958C  Win: 0x2238  TcpLen: 20
+[Xref => http://www.wiretrip.net/rfp/pages/whitepapers/whiskerids.html]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:43:23.094365 147.228.57.22:58517 -> 147.228.67.60:80
+TCP TTL:62 TOS:0x0 ID:51461 IpLen:20 DgmLen:468 DF
+***AP*** Seq: 0x6578EBFD  Ack: 0x64EE1F3B  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 942154495 102976519 
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:43:25.039723 147.228.209.2:33805 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:26774 IpLen:20 DgmLen:490 DF
+***AP*** Seq: 0x6555CAA3  Ack: 0x64F404FB  Win: 0x1AA4  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 249865078 102976341 
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.707103 147.228.63.173:1702 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63371 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x590B3414  Ack: 0x8CE109F3  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.728843 147.228.63.173:1703 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63374 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x590BCF2D  Ack: 0x8CED015D  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.737220 147.228.63.173:1702 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63375 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x590B34D2  Ack: 0x8CE10C8D  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.743390 147.228.63.173:1703 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63376 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x590BCFEA  Ack: 0x8CED03F4  Win: 0xF859  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.752297 147.228.63.173:1702 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63377 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x590B3590  Ack: 0x8CE10F26  Win: 0xF5BD  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.758218 147.228.63.173:1702 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63378 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x590B3626  Ack: 0x8CE11076  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:53:56.763893 147.228.63.173:1703 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63379 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x590BD0A7  Ack: 0x8CED068A  Win: 0xF5C3  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:54:06.040312 147.228.63.173:1702 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63405 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x590B36D2  Ack: 0x8CE1130F  Win: 0xF857  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:54:06.046029 147.228.63.173:1703 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63406 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x590BD152  Ack: 0x8CED0920  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:54:06.054307 147.228.63.173:1702 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63407 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x590B3790  Ack: 0x8CE115A8  Win: 0xF5BE  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-13:54:06.060006 147.228.63.173:1703 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:63408 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x590BD20F  Ack: 0x8CED0BB6  Win: 0xF85A  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:05:59.803898 147.228.67.60:80 -> 216.39.48.212:35218
+TCP TTL:64 TOS:0x0 ID:41966 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xBAD6FE3A  Ack: 0xBAB2F98E  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103112186 343320650 
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:08:31.705592 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7080 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:5888  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:08:33.819220 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7081 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:6144  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:08:35.822824 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7083 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:6400  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:08:37.824903 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7084 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:6656  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:09:35.608306 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7309 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:6912  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:09:37.910197 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7310 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:7168  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:09:39.913820 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7312 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:7424  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:09:41.915888 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7313 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:7680  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:10:48.670605 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7514 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:7936  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:10:51.013969 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7515 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:8192  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:10:53.017535 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7517 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:8448  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:10:55.019667 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:7518 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:8704  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:11:55.601973 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:8192 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:9216  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:11:57.608904 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:8193 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:9472  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:11:59.612443 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:8195 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:9728  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-14:12:01.614467 147.228.63.147 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:8196 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:9984  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:1057:3] WEB-MISC ftp attempt [**]
+[Classification:  sid] [Priority: 2]
+01/28-14:37:22.879878 147.228.63.110:1667 -> 147.228.67.60:80
+TCP TTL:127 TOS:0x0 ID:47333 IpLen:20 DgmLen:453 DF
+***AP*** Seq: 0x4F130D8F  Ack: 0x30627BC8  Win: 0x4470  TcpLen: 20
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-14:49:15.237134 62.77.103.161:1162 -> 147.228.67.60:80
+TCP TTL:24 TOS:0x0 ID:31493 IpLen:20 DgmLen:282 DF
+***AP*** Seq: 0x8C49A4  Ack: 0x5D07F754  Win: 0x1F8E  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-14:49:15.516886 62.77.103.161:1167 -> 147.228.67.60:80
+TCP TTL:24 TOS:0x0 ID:33541 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x8C50A2  Ack: 0x5D9BECE3  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:36:29.621569 147.228.209.2:2077 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:28982 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xA53DD8B7  Ack: 0x106E5A6F  Win: 0xF84C  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:36:29.800488 147.228.209.2:2084 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:28993 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xA5671CEC  Ack: 0x1172FAE9  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-15:41:32.209188 147.228.67.60:80 -> 216.39.48.218:41188
+TCP TTL:64 TOS:0x0 ID:50939 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x239FDD7F  Ack: 0x22D8464F  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103685411 343681397 
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-15:51:34.294918 147.228.57.20:42524 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1587
+***AP*** Seq: 0x49E2E045  Ack: 0x488B35AD  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-15:51:51.536045 147.228.57.20:42561 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1595
+***AP*** Seq: 0x4B0B3CB3  Ack: 0x4A846301  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:00.448487 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65522 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0xA02A0AE8  Ack: 0x61AE6499  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:00.933936 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65524 IpLen:20 DgmLen:226 DF
+***AP*** Seq: 0xA02A0BA3  Ack: 0x61AE6747  Win: 0xF842  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:01.209402 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65525 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0xA02A0C5D  Ack: 0x61AE69DA  Win: 0xF5AF  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:01.500858 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65526 IpLen:20 DgmLen:226 DF
+***AP*** Seq: 0xA02A0D18  Ack: 0x61AE6C87  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:02.201519 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65528 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0xA02A0DD2  Ack: 0x61AE6F1A  Win: 0xF85D  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:02.557685 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65529 IpLen:20 DgmLen:209 DF
+***AP*** Seq: 0xA02A0E68  Ack: 0x61AE706A  Win: 0xF70D  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-15:58:02.796599 147.228.209.2:2199 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:65530 IpLen:20 DgmLen:208 DF
+***AP*** Seq: 0xA02A0F11  Ack: 0x61AE7317  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:00:02.495155 147.228.67.60:80 -> 147.229.221.62:3025
+TCP TTL:64 TOS:0x0 ID:42013 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x689F9227  Ack: 0x5E61272  Win: 0x25B0  TcpLen: 20
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-16:03:46.104873 147.228.209.2:2137 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:50414 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xBEAEA84A  Ack: 0x7735547F  Win: 0xF842  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-16:03:48.133490 147.228.209.2:2141 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:50475 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xBEBA58E6  Ack: 0x778B7727  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-16:04:09.954269 147.228.209.2:2143 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:51026 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0xBF0DB60D  Ack: 0x79474B73  Win: 0xF842  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-16:04:11.466163 147.228.209.2:2144 -> 147.228.67.60:80
+TCP TTL:122 TOS:0x0 ID:51080 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0xBF154738  Ack: 0x794181E5  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:07:10.249842 147.228.67.60:80 -> 213.180.32.99:44992
+TCP TTL:64 TOS:0x0 ID:64780 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x850388E9  Ack: 0x7395017B  Win: 0x19C8  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103839211 1251383069 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:07:15.385426 147.228.67.60:80 -> 213.180.32.99:45010
+TCP TTL:64 TOS:0x0 ID:51160 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x84B3B03C  Ack: 0x73E18A81  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103839724 1251383590 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:07:57.389939 147.228.67.60:80 -> 213.180.32.99:45136
+TCP TTL:64 TOS:0x0 ID:52364 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x86C44A90  Ack: 0x75FB9629  Win: 0x1E06  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103843925 1251387791 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:07:59.905234 147.228.67.60:80 -> 213.180.32.99:45171
+TCP TTL:64 TOS:0x0 ID:1047 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x875B8D59  Ack: 0x769493B4  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103844176 1251388042 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:08:07.541829 147.228.67.60:80 -> 213.180.32.99:45180
+TCP TTL:64 TOS:0x0 ID:33987 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x87F30888  Ack: 0x76ACBE37  Win: 0x1950  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 103844940 1251388805 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:53:18.935035 147.228.67.60:80 -> 216.39.48.193:47358
+TCP TTL:64 TOS:0x0 ID:44948 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x32E400F4  Ack: 0x32AB134D  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 104116072 342841603 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:58:25.668092 147.228.67.60:80 -> 147.228.209.2:1420
+TCP TTL:64 TOS:0x0 ID:8510 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x45910782  Ack: 0x465AA1  Win: 0x1D50  TcpLen: 20
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-16:58:45.705091 147.228.67.60:80 -> 147.228.209.2:1420
+TCP TTL:64 TOS:0x0 ID:8516 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x45911EC6  Ack: 0x465F7C  Win: 0x25B0  TcpLen: 20
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-18:01:01.900064 147.228.57.20:47831 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1003
+***AP*** Seq: 0x31B6176C  Ack: 0x32034F9A  Win: 0x1AF8  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-18:05:06.030863 147.228.67.60:80 -> 216.39.48.56:36195
+TCP TTL:64 TOS:0x0 ID:62901 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x4119B41B  Ack: 0x413BABFF  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 104546770 341418530 
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-18:16:06.884669 212.90.235.127:1165 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:16653 IpLen:20 DgmLen:282 DF
+***AP*** Seq: 0x16EE5A  Ack: 0x6B36AD93  Win: 0x2180  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-18:16:07.745228 212.90.235.127:1169 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:18957 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x16F385  Ack: 0x6AEEA410  Win: 0x2180  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-18:37:17.089739 147.228.67.60:80 -> 195.146.126.186:1563
+TCP TTL:64 TOS:0x0 ID:61307 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xBAC4DB6C  Ack: 0x8668563A  Win: 0x1920  TcpLen: 20
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-18:53:45.772333 194.108.247.128:1371 -> 147.228.67.60:80
+TCP TTL:119 TOS:0x20 ID:17812 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0x33CC8C83  Ack: 0xF9E6DCFA  Win: 0x2398  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-18:53:46.837381 194.108.247.128:1372 -> 147.228.67.60:80
+TCP TTL:119 TOS:0x20 ID:17821 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0x33D2F268  Ack: 0xF95FA8F5  Win: 0x2398  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-19:02:48.404950 67.119.36.157:3143 -> 147.228.67.60:80
+TCP TTL:112 TOS:0x0 ID:14893 IpLen:20 DgmLen:697 DF
+***AP*** Seq: 0xFFB51A61  Ack: 0x1AE39E4A  Win: 0x4410  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-19:16:45.949345 213.235.143.49:1940 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:43059 IpLen:20 DgmLen:282 DF
+***AP*** Seq: 0x4DB6F0  Ack: 0x50105EA5  Win: 0x2180  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-19:16:47.422022 213.235.143.49:1943 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:45363 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x4DBF99  Ack: 0x4FBDCD7A  Win: 0x2180  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-19:18:00.928893 147.228.67.60:80 -> 213.235.64.152:1166
+TCP TTL:64 TOS:0x0 ID:22397 IpLen:20 DgmLen:576 DF
+***A**** Seq: 0x5207EEA7  Ack: 0x12823B  Win: 0x25B0  TcpLen: 20
+
+[**] [1:882:2] WEB-CGI calendar access [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-19:38:08.705713 147.228.209.2:2182 -> 147.228.67.60:80
+TCP TTL:124 TOS:0x0 ID:1202 IpLen:20 DgmLen:445 DF
+***AP*** Seq: 0x659E112  Ack: 0xA06A5328  Win: 0x4470  TcpLen: 20
+
+[**] [1:882:2] WEB-CGI calendar access [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-19:39:27.756785 147.228.209.2:2191 -> 147.228.67.60:80
+TCP TTL:124 TOS:0x0 ID:1254 IpLen:20 DgmLen:445 DF
+***AP*** Seq: 0x77EDFF7  Ack: 0xA594B7EC  Win: 0x4470  TcpLen: 20
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:23:33.038000 212.90.235.149:1392 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:23066 IpLen:20 DgmLen:282 DF
+***AP*** Seq: 0x8B8131  Ack: 0x4B7F50CC  Win: 0x2180  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:23:33.972751 212.90.235.149:1397 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:29978 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x8BA61D  Ack: 0x4BFA953C  Win: 0x2180  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:25:30.178362 212.90.235.149:1440 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:31515 IpLen:20 DgmLen:282 DF
+***AP*** Seq: 0x8D6BF3  Ack: 0x541978C8  Win: 0x2180  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:25:30.858712 212.90.235.149:1444 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:33819 IpLen:20 DgmLen:407 DF
+***AP*** Seq: 0x8D6ECB  Ack: 0x54318FA2  Win: 0x2180  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:39:30.022062 63.238.119.34:62029 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:31629 IpLen:20 DgmLen:319 DF
+***AP*** Seq: 0x472B08EE  Ack: 0x88545D7C  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:39:30.224227 63.238.119.34:62030 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:31671 IpLen:20 DgmLen:319 DF
+***AP*** Seq: 0x85E23C9D  Ack: 0x886BF2BA  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:39:31.385434 63.238.119.34:62029 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:32052 IpLen:20 DgmLen:317 DF
+***AP*** Seq: 0x472B0A05  Ack: 0x8854666E  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:39:37.933791 63.238.119.34:62030 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:33483 IpLen:20 DgmLen:317 DF
+***AP*** Seq: 0x85E23DB4  Ack: 0x886BFBAC  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:41:36.531312 12.96.243.166:2834 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:14263 IpLen:20 DgmLen:316 DF
+***AP*** Seq: 0x83D21571  Ack: 0x9173C11F  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:41:36.614347 12.96.243.166:2840 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:24503 IpLen:20 DgmLen:318 DF
+***AP*** Seq: 0x83D409BF  Ack: 0x91988482  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:41:36.637823 12.96.243.166:2841 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:25527 IpLen:20 DgmLen:318 DF
+***AP*** Seq: 0x83D409C8  Ack: 0x919C7CCE  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-20:41:36.699445 12.96.243.166:2846 -> 147.228.67.60:80
+TCP TTL:110 TOS:0x0 ID:32183 IpLen:20 DgmLen:316 DF
+***AP*** Seq: 0x83D409E6  Ack: 0x91BCC8E0  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-21:31:10.097782 147.228.57.20:54240 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1599
+***AP*** Seq: 0x4C138C54  Ack: 0x4CD51F20  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:19.979138 147.228.209.2:1333 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14120 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x26A29BEA  Ack: 0x580A9563  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:20.015600 147.228.209.2:1333 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14121 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x26A29CA8  Ack: 0x580A97FD  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:20.048436 147.228.209.2:1334 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14126 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x26A391FB  Ack: 0x581A87C6  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:20.061694 147.228.209.2:1334 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14127 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x26A392B9  Ack: 0x581A8A60  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:20.133077 147.228.209.2:1335 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14132 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x26A4B921  Ack: 0x582FE18D  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:20.149884 147.228.209.2:1335 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14133 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x26A4B9B7  Ack: 0x582FE2DD  Win: 0xF9A0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:34:20.167415 147.228.209.2:1335 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:14135 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x26A4BA63  Ack: 0x582FE576  Win: 0xF707  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1002:3] WEB-IIS cmd.exe access [**]
+[Classification: Web Application Attack] [Priority: 1]
+01/28-21:43:35.366328 12.218.0.7:3213 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:53219 IpLen:20 DgmLen:99 DF
+***AP*** Seq: 0x6326F05D  Ack: 0x7ABEA5A8  Win: 0x4470  TcpLen: 20
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.497993 147.228.209.2:1440 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34804 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x3155AEA4  Ack: 0x850ABBEF  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.589887 147.228.209.2:1440 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34807 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x3155AF62  Ack: 0x850ABE89  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.653218 147.228.209.2:1441 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34812 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x31570129  Ack: 0x84E3F311  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.695257 147.228.209.2:1441 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34813 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x315701E7  Ack: 0x84E3F5AB  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.837999 147.228.209.2:1442 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34819 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x31587346  Ack: 0x8450A3BA  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.865149 147.228.209.2:1442 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34820 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x315873DC  Ack: 0x8450A50A  Win: 0xF9A0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:03.897315 147.228.209.2:1442 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34821 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x31587488  Ack: 0x8450A7A3  Win: 0xF707  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:27.142238 147.228.209.2:1443 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34872 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x31B177B2  Ack: 0x85ECCD6D  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:27.170855 147.228.209.2:1443 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34873 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x31B17870  Ack: 0x85ECD007  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:27.208965 147.228.209.2:1444 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34878 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x31B27BC1  Ack: 0x85FB3017  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-21:46:27.222204 147.228.209.2:1444 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:34879 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x31B27C7F  Ack: 0x85FB32B1  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-21:52:57.951284 147.228.67.60:80 -> 62.177.85.85:1218
+TCP TTL:64 TOS:0x0 ID:40257 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0x9CDE99DB  Ack: 0x2B13BB43  Win: 0x3240  TcpLen: 20
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-21:54:57.681408 147.228.67.60:80 -> 62.177.85.85:1233
+TCP TTL:64 TOS:0x0 ID:51786 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xA51B8740  Ack: 0x2D3B26C0  Win: 0x1920  TcpLen: 20
+
+[**] [1:628:1] SCAN nmap TCP [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-22:05:39.121269 64.251.67.78:80 -> 147.228.67.60:80
+TCP TTL:46 TOS:0x0 ID:50986 IpLen:20 DgmLen:40
+***A**** Seq: 0xC0  Ack: 0x0  Win: 0x578  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS28]
+
+[**] [1:628:1] SCAN nmap TCP [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-22:05:39.328370 207.194.2.244:80 -> 147.228.67.60:80
+TCP TTL:46 TOS:0x0 ID:50989 IpLen:20 DgmLen:40
+***A**** Seq: 0xC2  Ack: 0x0  Win: 0x578  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS28]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/28-22:22:43.333335 147.228.57.20:55766 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1593
+***AP*** Seq: 0xF4A3C72  Ack: 0xF06AAC5  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:32.961634 147.228.209.2:1502 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40845 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x5CAFCEA0  Ack: 0x3B1B382E  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:32.982920 147.228.209.2:1502 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40846 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x5CAFCF5E  Ack: 0x3B1B3AC8  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:33.052190 147.228.209.2:1503 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40851 IpLen:20 DgmLen:230 DF
+***AP*** Seq: 0x5CB08B5D  Ack: 0x3B841FBB  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:33.068725 147.228.209.2:1503 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40852 IpLen:20 DgmLen:229 DF
+***AP*** Seq: 0x5CB08C1B  Ack: 0x3B842255  Win: 0xF856  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:33.120261 147.228.209.2:1504 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40858 IpLen:20 DgmLen:190 DF
+***AP*** Seq: 0x5CB1D253  Ack: 0x3B027EC6  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:33.148237 147.228.209.2:1504 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40859 IpLen:20 DgmLen:212 DF
+***AP*** Seq: 0x5CB1D2E9  Ack: 0x3B028016  Win: 0xF9A0  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:34:33.162369 147.228.209.2:1504 -> 147.228.67.60:80
+TCP TTL:123 TOS:0x0 ID:40860 IpLen:20 DgmLen:211 DF
+***AP*** Seq: 0x5CB1D395  Ack: 0x3B0282AF  Win: 0xF707  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:19.613836 213.235.66.99:1136 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1487 IpLen:20 DgmLen:224 DF
+***AP*** Seq: 0x5FB0388E  Ack: 0x58CD67BE  Win: 0x2238  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:20.175705 213.235.66.99:1136 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1488 IpLen:20 DgmLen:245 DF
+***AP*** Seq: 0x5FB03946  Ack: 0x58CD690E  Win: 0x20E8  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:20.428978 213.235.66.99:1136 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1489 IpLen:20 DgmLen:246 DF
+***AP*** Seq: 0x5FB03A13  Ack: 0x58CD6BBB  Win: 0x1E3B  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:21.350135 213.235.66.99:1136 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1500 IpLen:20 DgmLen:307 DF
+***AP*** Seq: 0x5FB03AE1  Ack: 0x58CD6D0B  Win: 0x1CEB  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:22.124453 213.235.66.99:1139 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1510 IpLen:20 DgmLen:432 DF
+***AP*** Seq: 0x5FBAD525  Ack: 0x5989EF6B  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:22.508836 213.235.66.99:1139 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1514 IpLen:20 DgmLen:224 DF
+***AP*** Seq: 0x5FBAD6AD  Ack: 0x5989F86D  Win: 0x2238  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:22.704048 213.235.66.99:1139 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1515 IpLen:20 DgmLen:245 DF
+***AP*** Seq: 0x5FBAD765  Ack: 0x5989F9BD  Win: 0x20E8  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:42:22.934823 213.235.66.99:1139 -> 147.228.67.60:80
+TCP TTL:121 TOS:0x0 ID:1516 IpLen:20 DgmLen:246 DF
+***AP*** Seq: 0x5FBAD832  Ack: 0x5989FC6A  Win: 0x1E3B  TcpLen: 20
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:885:3] WEB-CGI bash access [**]
+[Classification:  sid] [Priority: 2]
+01/28-22:45:53.527440 212.47.18.51:60340 -> 147.228.67.60:80
+TCP TTL:56 TOS:0x0 ID:33082 IpLen:20 DgmLen:175 DF
+***AP*** Seq: 0x56E87A15  Ack: 0x65DD355D  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 215546767 106231455 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-1999-0509]
+[Xref => http://www.cert.org/advisories/CA-1996-11.html]
+
+[**] [1:474:1] ICMP superscan echo [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-23:00:37.349492 217.81.32.186 -> 147.228.67.60
+ICMP TTL:117 TOS:0x0 ID:62461 IpLen:20 DgmLen:36
+Type:8  Code:0  ID:768   Seq:59421  ECHO
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-23:10:59.083887 63.238.119.34:18129 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:21257 IpLen:20 DgmLen:317 DF
+***AP*** Seq: 0x18DB9989  Ack: 0xC47C0D3B  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-23:10:59.206856 63.238.119.34:18130 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:21275 IpLen:20 DgmLen:319 DF
+***AP*** Seq: 0x207C23B7  Ack: 0xC3F655D3  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-23:10:59.331300 63.238.119.34:18131 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:21298 IpLen:20 DgmLen:317 DF
+***AP*** Seq: 0x63917AD3  Ack: 0xC4529C18  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/28-23:11:10.591598 63.238.119.34:18129 -> 147.228.67.60:80
+TCP TTL:113 TOS:0x0 ID:24443 IpLen:20 DgmLen:319 DF
+***AP*** Seq: 0x18DB9A9E  Ack: 0xC47C162B  Win: 0xFD5C  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:882:2] WEB-CGI calendar access [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/28-23:12:52.321655 66.196.72.28:4928 -> 147.228.67.60:80
+TCP TTL:237 TOS:0x0 ID:47252 IpLen:20 DgmLen:264 DF
+***AP*** Seq: 0x59716434  Ack: 0xCCA6128F  Win: 0x8052  TcpLen: 20
+
+[**] [1:990:3] WEB-IIS _vti_inf access [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:01:16.713172 212.90.233.156:2739 -> 147.228.67.60:80
+TCP TTL:120 TOS:0x16 ID:31342 IpLen:20 DgmLen:311 DF
+***AP*** Seq: 0x769000  Ack: 0x6462DBA0  Win: 0x2180  TcpLen: 20
+
+[**] [1:937:4] WEB-FRONTPAGE _vti_rpc access [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:01:24.353302 212.90.233.156:2746 -> 147.228.67.60:80
+TCP TTL:120 TOS:0x1 ID:48238 IpLen:20 DgmLen:436 DF
+***AP*** Seq: 0x76BA81  Ack: 0x650FCF3E  Win: 0x2180  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/2144]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-01:21:37.537425 147.228.57.20:60774 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1994
+***AP*** Seq: 0xB256492A  Ack: 0xB14E411C  Win: 0x2D40  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:21.331865 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7297 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0xE60ECF6F  Ack: 0xE5D15A05  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137132 107248200 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:21.621838 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7299 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0xE60ED09D  Ack: 0xE5D15C9F  Win: 0x1A04  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137161 107248228 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:21.956458 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7301 IpLen:20 DgmLen:354 DF
+***AP*** Seq: 0xE60ED1CA  Ack: 0xE5D1657E  Win: 0x2D40  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137194 107248260 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:22.211599 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7303 IpLen:20 DgmLen:353 DF
+***AP*** Seq: 0xE60ED2F8  Ack: 0xE5D16817  Win: 0x3890  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137220 107248290 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:22.479319 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7306 IpLen:20 DgmLen:314 DF
+***AP*** Seq: 0xE60ED425  Ack: 0xE5D170F6  Win: 0x4F30  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137243 107248316 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:22.775471 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7307 IpLen:20 DgmLen:336 DF
+***AP*** Seq: 0xE60ED52B  Ack: 0xE5D17238  Win: 0x5A80  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137268 107248342 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1042:4] WEB-IIS view source via translate header [**]
+[Classification:  sid] [Priority: 2]
+01/29-01:35:23.018079 147.228.209.2:38812 -> 147.228.67.60:80
+TCP TTL:60 TOS:0x0 ID:7308 IpLen:20 DgmLen:335 DF
+***AP*** Seq: 0xE60ED647  Ack: 0xE5D174D1  Win: 0x65D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 254137298 107248372 
+[Xref => http://www.whitehats.com/info/IDS305]
+[Xref => http://www.securityfocus.com/bid/1578]
+
+[**] [1:1287:3] WEB-IIS scripts access [**]
+[Classification:  sid] [Priority: 2]
+01/29-02:14:24.722133 12.146.91.129:49054 -> 147.228.67.60:80
+TCP TTL:115 TOS:0x0 ID:45090 IpLen:20 DgmLen:345 DF
+***AP*** Seq: 0xA14D1136  Ack: 0x79E84F67  Win: 0x4470  TcpLen: 20
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-02:55:30.327835 147.228.57.20:34529 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1596
+***AP*** Seq: 0x13F11F05  Ack: 0x13F2F9D2  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-02:57:15.151178 147.228.57.20:34575 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:2025
+***AP*** Seq: 0x1AACACDF  Ack: 0x1AFA7925  Win: 0x2D40  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-03:06:56.857975 147.228.57.20:34772 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1700
+***AP*** Seq: 0x3EECFBC5  Ack: 0x3F3793B1  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:882:2] WEB-CGI calendar access [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-03:33:49.068040 216.39.48.184:59085 -> 147.228.67.60:80
+TCP TTL:44 TOS:0x0 ID:52188 IpLen:20 DgmLen:264 DF
+***AP*** Seq: 0xA5318A56  Ack: 0xA56962EF  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 347292066 107958963 
+
+[**] [1:1599:3] WEB-CGI search.cgi access [**]
+[Classification:  sid] [Priority: 2]
+01/29-03:35:35.305167 216.39.48.184:36711 -> 147.228.67.60:80
+TCP TTL:44 TOS:0x0 ID:58130 IpLen:20 DgmLen:259 DF
+***AP*** Seq: 0xABCC881D  Ack: 0xAD1FDA4B  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 347302688 107969586 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2000-0054]
+[Xref => http://www.securityfocus.com/bid/921]
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-03:38:56.208267 147.228.67.60:80 -> 216.39.48.184:47672
+TCP TTL:64 TOS:0x0 ID:41615 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xB9226822  Ack: 0xB87F46F4  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 107989695 347322754 
+
+[**] [1:1201:3] WEB-MISC 403 Forbidden [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-03:40:13.697997 147.228.67.60:80 -> 216.39.48.184:51923
+TCP TTL:64 TOS:0x0 ID:33757 IpLen:20 DgmLen:1500 DF
+***A**** Seq: 0xBE636ADF  Ack: 0xBD50BF3F  Win: 0x1920  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 107997444 347330519 
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/29-04:06:25.196733 216.222.8.131:63471 -> 147.228.67.60:80
+TCP TTL:108 TOS:0x0 ID:16836 IpLen:20 DgmLen:315 DF
+***AP*** Seq: 0xF2353F82  Ack: 0x20A46118  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/29-04:06:25.197687 216.222.8.131:63472 -> 147.228.67.60:80
+TCP TTL:108 TOS:0x0 ID:17092 IpLen:20 DgmLen:317 DF
+***AP*** Seq: 0xF2353F92  Ack: 0x20FC84B5  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/29-04:06:25.198288 216.222.8.131:63473 -> 147.228.67.60:80
+TCP TTL:108 TOS:0x0 ID:17348 IpLen:20 DgmLen:317 DF
+***AP*** Seq: 0xF2353F93  Ack: 0x217D03AB  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/29-04:06:25.200052 216.222.8.131:63474 -> 147.228.67.60:80
+TCP TTL:108 TOS:0x0 ID:17604 IpLen:20 DgmLen:315 DF
+***AP*** Seq: 0xF2353F9E  Ack: 0x21403A7C  Win: 0x2238  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:884:4] WEB-CGI formmail access [**]
+[Classification:  sid] [Priority: 2]
+01/29-06:25:05.608341 151.196.184.13:3549 -> 147.228.67.60:80
+TCP TTL:114 TOS:0x0 ID:27480 IpLen:20 DgmLen:352 DF
+***AP*** Seq: 0x20572D1  Ack: 0x2BDDAB3E  Win: 0x2426  TcpLen: 20
+[Xref => http://www.securityfocus.com/bid/1187]
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0172]
+[Xref => http://www.whitehats.com/info/IDS226]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-06:29:37.674405 130.217.241.22:2584 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1166
+***AP*** Seq: 0x3A20251C  Ack: 0xAD548857  Win: 0x1BA5  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-06:29:51.725891 147.228.63.33 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:47360 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:256   Seq:256  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-06:29:54.083407 147.228.63.33 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:47872 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:256   Seq:512  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-06:47:04.526242 147.228.63.49 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1347 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:768  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-06:47:06.800987 147.228.63.49 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1423 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1024  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-07:51:39.678486 147.228.63.111 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1076 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:512  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-07:51:42.077788 147.228.63.111 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:1077 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:768  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-07:55:33.785271 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2267 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:512  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-07:55:36.137211 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2278 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:768  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-07:55:38.140920 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2283 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1024  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-07:55:40.142687 147.228.63.59 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:2284 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1280  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-08:12:29.840545 147.228.57.20:42433 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1590
+***AP*** Seq: 0xC184E2D9  Ack: 0xC2532859  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-08:20:15.825996 147.228.57.20:42972 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1101
+***AP*** Seq: 0xDEBF784D  Ack: 0xDE5B8BC5  Win: 0x1E18  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:654:3] SMTP RCPT TO overflow [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1]
+01/29-08:20:36.962721 147.228.57.20:43018 -> 147.228.67.60:25
+TCP TTL:240 TOS:0x10 ID:0 IpLen:20 DgmLen:1893
+***AP*** Seq: 0xE02EEC9F  Ack: 0xDFE97486  Win: 0x21F0  TcpLen: 20
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2001-0260]
+[Xref => http://www.securityfocus.com/bid/2283]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:29:01.106245 147.228.63.44 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:75 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:768  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:29:03.336376 147.228.63.44 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:77 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1024  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:29:05.340486 147.228.63.44 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:79 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1280  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:29:07.342207 147.228.63.44 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:86 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1536  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:43:40.603209 147.228.63.167 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:6871 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1536  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:43:42.926515 147.228.63.167 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:6874 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:1792  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:43:44.930133 147.228.63.167 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:6876 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:2048  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:466:1] ICMP L3retriever Ping [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:43:46.932128 147.228.63.167 -> 147.228.67.60
+ICMP TTL:31 TOS:0x0 ID:6877 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:512   Seq:2304  ECHO
+[Xref => http://www.whitehats.com/info/IDS311]
+
+[**] [1:882:2] WEB-CGI calendar access [**]
+[Classification: Attempted Information Leak] [Priority: 2]
+01/29-08:53:46.138814 216.39.48.184:41255 -> 147.228.67.60:80
+TCP TTL:44 TOS:0x0 ID:7175 IpLen:20 DgmLen:264 DF
+***AP*** Seq: 0x5DF996CE  Ack: 0x5E2305A3  Win: 0x16D0  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 349211355 109878620 
+
+

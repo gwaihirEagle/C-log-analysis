@@ -1,0 +1,15 @@
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -typy > ~/typy_all
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite ICMP > ~/typy1
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite IMCP > ~/typy2
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite ICMP > ~/typy3
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite NETBIOS > ~/typy4
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite SCAN > ~/typy5
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite SMTP > ~/typy6
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite WEB-ATTACKS > ~/typy7
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite WEB-CGI > ~/typy8
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite WEB-FRONTPAGE > ~/typy9
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite WEB-IIS > ~/typy10
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite WEB-MISC > ~/typy11
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -podsite ICP > ~/typy_sp

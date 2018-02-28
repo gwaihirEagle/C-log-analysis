@@ -1,0 +1,49 @@
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 1a > ~/var1a
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 1b > ~/var1b
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 1c > ~/var1c
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 1d > ~/var1d
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 1e > ~/var1e
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 2a > ~/var2a
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 3a > ~/var3a
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 4a > ~/var4a
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 4b > ~/var4b
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 4c > ~/var4c
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 4d > ~/var4d
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 5a > ~/var5a
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 6a > ~/var6a
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 7a > ~/var7a
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 7b > ~/var7b
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 7c > ~/va7c
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 7d > ~/var7d
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 7e > ~/var7e
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 7f > ~/var7f
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 8a > ~/var8a
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 8b > ~/var8b
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 8c > ~/var8c
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 9a > ~/var9a
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 9b > ~/var9b
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 9c > ~/var9c
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 9d > ~/var9d
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 9e > ~/var9e
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 10a > ~/var10a
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 10b > ~/var10b
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 10c > ~/var10c
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 10d > ~/var10d
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 10e > ~/var10e
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 10f > ~/var10f
+
+kontrola-snort.exe /usr/local/share/data-snort-unix.dat -varianty 2a,2b,2c > ~/var2a2b2c
+
+
+
+
+

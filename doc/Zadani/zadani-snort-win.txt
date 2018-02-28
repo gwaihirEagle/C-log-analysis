@@ -1,0 +1,397 @@
+
+Zadání semestrální práce z PC -- Analýza ne¾ádoucích prùnikù na server
+======================================================================
+       $Revision: 1.8 $ $Date: 2003/10/06 13:38:02 $
+       Finální verze urèená pro vypracování semestrální práce.  V¹echny
+       pøípadné dal¹í zmìny (verze vy¹¹í ne¾ 1.8) jsou pouze doporuèení.
+
+
+1. Shrnutí
+======================================================================
+
+Úèelem programu je analyzovat záznamy o pokusech o prùnik do systému
+sí»ového serveru.  Z dat ve vstupním souboru se mají zobrazit
+
+  1) seznamy typù prùnikù a jejich èetností
+  2) histogram èetností pokusù o daný typ prùniku z jednotlivých podsítí
+  3) dny výskytù zadaných variant prùnikù
+
+
+2. Vstupní data
+======================================================================
+
+Vstupní data jsou poskytována ve formì souboru, který obsahuje záznamy o
+pokusech o prùnik do systému, poøízené detekèním softwarem `snort`.
+Data jsou v èistì textovém formátu, bez akcentovaných znakù.  Øádky v
+souboru budou maximálnì 255 znakù dlouhé (vèetnì pøechodu na nový øádek).
+Znak (znaky) konce øádku budou odpovídat operaènímu systému, pod kterým
+bude program testován.
+
+K dispozici máte vzorový vstupní soubor data-snort-win.dat (respektive
+data-snort-unix.dat).  Tato data je vhodné pova¾ovat za dostateènì
+reprezentativní a dostateènì rozsáhlá smysluplná zku¹ební data.  Program
+musí ov¹em korektnì zpracovat libovolný textový soubor s podobným obsahem
+(viz dále parametry pøíkazové øádky).
+
+Popis struktury záznamu ve vstupním souboru, vysvìtlený na pøíkladu: 
+
+ ~~~ BOF ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ [**] [1:1042:4] WEB-IIS view source via translate header [**]
+ [Classification:  sid] [Priority: 2]
+ 02/26-20:45:45.820098 193.109.183.28:28459 -> 147.228.123.123:80
+ TCP TTL:119 TOS:0x0 ID:12152 IpLen:20 DgmLen:246 DF
+ ***AP*** Seq: 0xF93D9472  Ack: 0xA13852E8  Win: 0x4386  TcpLen: 20
+ [Xref => http://www.whitehats.com/info/IDS305]
+ [Xref => http://www.securityfocus.com/bid/1578]
+
+ ~~~ EOF ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Dùle¾ité èásti struktury záznamu (poèet mezer je významný):
+  1. øádka: [**] <kód> <typ> <varianta> [**]
+  2. øádka: [Classification: <zkratka>] [Priority: <èislo>]
+  3. øádka: <èas> <zdroj> -> <cíl>
+  dal¹í øádky: data o pokusu o prùnik
+  
+  Zápis <polo¾ka> znamená významovou polo¾ku záznamu s daným jménem.
+  Formáty polo¾ek jsou
+  - <kód> = èíslo:èíslo:èíslo
+  - <typ> = øetìzec bez mezer
+  - <varianta>,<zkratka> = øetìzec s mezerami
+  - <èas> = mìsíc/den-hod:min:sec.tiky
+  - <zdroj>,<cíl> = ip-adresa:port  nebo  ip-adresa
+    (tj. port nemusí být uveden) kde  ip-adresa  jsou 4 èísla 0..255
+    oddìlená ":", první tøi èísla udávají tzv. adresu podsítì, ètvrté
+    adresu stroje (v rámci podsítì), a  port  je èíslo v rozsahu 0..65535
+
+  Pøíklad:
+  * "WEB-IIS" je oznaèení typu prùniku
+  * "view source via translate header" je popis varianty prùniku
+  * "02/26-20:45:45.820098" je datum a èas; pøedpokládá se aktuální rok
+  * "193.109.183.28:28459 -> 147.228.123.123:80" je zdroj a cíl prùniku
+  
+  Upozornìní:  
+  (1) V datech záznamu se mohou vyskytnout také netisknutelné znaky.  Pokud
+  se ale vyskytnou ve významových polo¾kách na prvních tøech øádcích, jedná
+  se o chybný záznam, který se nezpracovává (pouze se oznámí chyba dle
+  ustanovení ní¾e); tisknutelné znaky jsou v rozmezí 0x20 a¾ 0x7E.
+  (2) Poèet øádek záznamu je promìnný, záznamy jsou od sebe oddìleny
+  práznou øádkou.  Ta neobsahuje bílé znaky, pouze sekvenci <CR><LF>
+  (varianta pro DOS/Windows) resp. <LF> (varianta pro Unix).
+  (3) Záznamy jsou v souboru øazeny chronologicky a týkají se jednoho roku,
+  tj. v datech nedojde k "pøeteèení" pøes 1.leden.
+
+  Pro záznamy, které neodpovídají této struktuøe nebo které obsahují chyby
+  ve významových polo¾kách (napø. chybí text varianty, èas má neznámý
+  formát atd.), program vypí¹e informaci o chybì v datech a èíslo øádky v
+  datovém souboru, na které se vyskytla; výpis musí jít na standardní
+  chybový výstup.  Záznamy, ve kterých se vyskytla chyba, bude program
+  ignorovat.
+
+
+3. Funkce programu
+======================================================================
+
+Program bude na základì dat, které naète ze vstupního souboru, umo¾òovat 
+dále uvedené funkce:
+
+
+(1) Nápovìda
+
+Vstup: 	¾ádný
+	- pøíkazová øádka: (spu¹tìní bez parametrù) | -help | -h
+	- interaktivní re¾im: volba "Napoveda"
+Výstup: 
+	Název práce, informace o autorovi (jméno, pøíjmení, zkratka,
+	emailová adresa), o parametrech programu pøi spu¹tìní z pøíkazové
+	øádky a o volbách menu pro interaktivní re¾im.
+
+Pøíklad:
+ - vstup: (¾ádný)
+ - výstup (formát není závazný):
+	---------------------------------------------------------------------
+	Zadani "snort"
+	Zpracoval Premysl Brada (BRAD) 2003
+	email: brada@kiv.zcu.cz
+
+	Parametry prikazove radky:
+	 ...
+	Volby menu interaktivniho rezimu:
+	 ...
+	---------------------------------------------------------------------
+
+
+(2) Výpis detekovaných typù a variant prùnikù s èetnostmi
+
+Vstup: 	¾ádný
+	- pøíkazová øádka: -typy
+	- interaktivní re¾im: volba "Typy pruniku"
+Výstup: Období, pro nì¾ jsou v souboru záznamy, a dále seznam typù prùnikù a 
+	pro ka¾dý z nich seznam variant, které jsou obsa¾eny v datovém
+	souboru.  U ka¾dého typu bude uveden poèet výskytù v souboru.  Typy
+	a varianty budou oznaèeny poøadovým èíslem resp. písmenem v daném
+	seznamu (variant nebude více ne¾ 26).  Øazení seznamù typù i
+	variant je vzestupnì podle abecedy.
+
+Pøíklad:
+ - vstup: (¾ádný)
+ - výstup (formát je závazný):
+	---------------------------------------------------------------------
+	Data od 25.2. do 27.2.
+	
+	 1: ICMP  (25)
+	    a:  L3retriever Ping
+	    b:  Source Quench
+	 2: WEB-IIS  (5)
+	    a:  _vti_inf access
+	    b:  view source via translate header
+	 3: WEB-MISC  (12)
+	    a:  403 Forbidden
+	---------------------------------------------------------------------
+    
+    Formát øádky výstupu: Èíslo typu (na 2 cifry zarovnané doprava) resp.
+    písmeno varianty je následováno dvojteèkou.  Názvy variant prùnikù a
+    èetnosti jsou odsazeny tøemi mezerami, název typu jednou mezerou,
+    èetnost je v kulatých závorkách.  Max. délka øádky je 79 znakù, øádek s
+    názvem varianty bude na tuto délku pøípadnì oøíznut.
+
+    Pokud nejsou k dispozici ¾ádná data, pøípadnì jsou v¹echny záznamy v
+    datovém souboru po¹kozené, vypí¹e se pouze
+	---------------------------------------------------------------------
+	Zadne pokusy nebyly zaznamenany
+	---------------------------------------------------------------------
+
+
+(3) Podsítì, odkud do¹lo k danému typu pokusu o prùnik
+
+Vstup: 	Typ prùniku
+	- pøíkazová øádka: -podsite <typ>
+	- interaktivní re¾im: volba "Podsite pro typ pruniku"
+Výstup:	Histogram ukazující absolutní a relativní èetnosti pokusù z
+	jednotlivých podsítí, øazený sestupnì podle poètu pokusù.  
+
+Pøíklad:
+ - vstup: <typ> = WEB-IIS
+ - výstup (formát je závazný):
+	---------------------------------------------------------------------
+	Data o WEB-IIS od 25.2. do 27.2.
+	
+	193.109.183 -> 23	**************************************
+	167.12.33   -> 7	************
+	---------------------------------------------------------------------
+
+    Formát øádky výstupu: 
+    	<podsit> -> <cetnost><tabelator><hvezdicka>*
+    Adresy podsítí (polo¾ka <podsit>) jsou na 11 znakù, zarovnány vlevo;
+    poèty pokusù jsou zarovnány vlevo.  Na ose histogramu bude 100%
+    znázornìno padesáti hvìzdièkami, tj. poèet hvìzdièek pro jednu øádku se
+    urèí jako ``(relativní èetnost * 50) zaokrouhlená na celé èíslo''.
+    Kvùli zaokrouhlovacím chybám nemusí být celkový poèet hvìzdièek
+    v histogramu v¾dy roven 50.  
+
+    Pokud je zadán typ, pro nìj¾ nejsou data, pøípadnì jsou v¹echny záznamy 
+    v datovém souboru po¹kozené, vypí¹e se pouze
+	---------------------------------------------------------------------
+	Zadne pokusy nebyly zaznamenany
+	---------------------------------------------------------------------
+
+
+(4) Dny výskytù zadaných variant
+
+Vstup:	Indexy variant prùnikù
+	- pøíkazová øádka: -varianty <seznam>
+	- interaktivní re¾im: volba "Varianty pro podsit a den"
+	Seznam variant bude zadáván jako indexy	po¾adovaných variant
+	oddìlené èárkou, pøièem¾ index bude slo¾en z èísla typu prùniku a
+	písmene varianty, tak jak jsou vypisovány ve výpisu (2), viz
+	pøíklad.
+Výstup:	Pro ka¾dou variantu seznam dní, ve kterých se tato varianta
+	vyskytla.
+
+Pøíklad:
+ - vstup: <seznam> = 2b,1a
+ - výstup (formát je závazný):
+	---------------------------------------------------------------------
+	Data o variantach 2b,1a od 25.2. do 11.5.
+	
+	2b: view source via translate header
+	  26.2.
+       	1a: L3retriever Ping
+	  25.2. 3.3. 4.3. 5.3 6.3. 7.3. 8.3. 12.3. 13.3. 14.3. 24.3. 25.3.
+	  3.4. 11.5.
+	---------------------------------------------------------------------
+
+   Formát øádky výstupu: Na jedné øádce bude index a název varianty
+   prùniku, oddìlené ": ".  Na dal¹í øádce seznam dní oddìlených mezerou;
+   seznam bude odsazen dvìma mezerami.  Max. délka øádky je 79
+   znakù, øádek s názvem varianty bude na tuto délku oøíznut, seznam dní
+   bude pøípadnì pokraèovat na dal¹í øádce opìt s odsazením 2 mezerami
+   (nesmí dojít k rozdìlení datumu pøes zalomení øádky).
+
+   Výpis variant bude v poøadí daném vstupními parametry funkce (viz
+   pøíklad).  Bude-li se daná varianta pokusu o prùnik vyskytovat v jednom
+   dni vícekrát, bude takový den vypsán pouze jednou.
+   
+   Pokud v daném mìsíci nedo¹lo z dané podsítì k pokusu o prùnik, pøípadnì
+   jsou v¹echny záznamy v datovém souboru po¹kozené, bude vypsáno pouze
+	---------------------------------------------------------------------
+	Zadne pokusy nebyly zaznamenany
+	---------------------------------------------------------------------
+   
+
+3.1 Verze pro prùbì¾nou kontrolu (= po¾adavky pro první odevzdání)
+======================================================================
+
+Program, který budete odevzdávat pro prùbì¾nou kontrolu ("první èást
+samostatné práce") bude velmi redukovanou verzí výsledného programu. 
+Musí splòovat alespoò tyto nále¾itosti:
+
+- Program pøeète z pøíkazové øádky (jako parametr programu pøi spou¹tìní)
+  jméno datového souboru, otevøe jej (s kontrolou existence souboru),
+  vypí¹e názvy v¹ech typù prùnikù tak jak se postupnì v souboru vyskytují,
+  zavøe soubor a skonèí.
+  
+  Výpis bude ve formátu
+	<èíslo>: <typ>
+  kde èíslo bude poøadové èíslo øádku v souboru, na kterém se vyskytuje
+  daný <typ>, napø. 
+	1: WEB-CGI
+	8: ICMP
+	13: WEB-CGI
+	...
+  Typ bude vypisován pro v¹echny øádky souboru, na kterých se vyskytuje,
+  tj. jeden typ se ve výpisu mù¾e vyskytovat vícekrát.  Èísla øádkù nebudou
+  zarovnána.  Není nutné kontrolovat správnost naètení typu (tj. kontrola
+  na netisknutelné znaky).
+
+- Program bude také reagovat na parametr -h nebo -help za názvem souboru,
+  viz výpis (1) vý¹e.
+
+- Implementace programu bude rozdìlena na dva moduly, v jednom bude 
+  alespoò funkce main(), ve druhém bude alespoò jedna funkce pro výpis.
+  Program by nemìl obsahovat globální promìnné.
+
+- Pro pøeklad bude k dispozici funkèní Makefile.
+
+
+
+4. Ovládání
+======================================================================
+
+Program se bude spou¹tìt z pøíkazové øádky s parametry.  Jméno programu
+bude "snort.exe", a to i na Unixu.  Podle zadaných parametrù na pøíkazové
+øádce program funguje buï v dávkovém, nebo v interaktivním re¾imu.  Bude-li
+program spu¹tìn bez jakéhokoliv parametru, bude se chovat jako pøi spu¹tìní
+s parametry <soubor> -help.
+
+Prvním parametrem bude øetìzec udávající jméno datového souboru
+(nespoléhejte se, ¾e to bude v¾dy ZADANI.DAT).  Není-li za názvem datového
+souboru zadán ¾ádný dal¹í parametr, program pøejde do interaktivního
+re¾imu.  Jsou-li zadány dal¹í parametry, program je zpracuje v dávkovém
+re¾imu bez dal¹ích vstupù u¾ivatele.  Názvy parametrù a formáty vstupních
+dat pro oba re¾imy jsou uvedeny u popisu funkcí programu vý¹e.
+
+Pøíklady:
+  c:\>snort.exe 
+    -- vypí¹e nápovìdu a skonèí
+  c:\>snort.exe test.dat -h
+    -- vypí¹e nápovìdu a skonèí
+  c:\snort.exe -h
+    -- vypí¹e varovné hlá¹ení, ¾e soubor "-h" neexistuje, a skonèí
+  c:\>snort.exe test.dat
+    -- pøejde do interaktivního re¾imu
+  c:\>snort.exe test.dat -typy
+    -- vypí¹e seznam (2) v dávkovém re¾imu a skonèí
+
+4.1 Interaktivní re¾im
+======================================================================
+
+V interaktivním re¾imu bude mo¾no pomocí volby z textového menu zadávat
+po¾adavky na vý¹e uvedené funkce (vèetnì nápovìdy) v libovolném poøadí a
+libovolnìkrát po sobì.  Program zajistí stránkování dlouhých výpisù; poèet
+øádek jedné stránky je v¾dy 20.
+
+Na po¾ádání bude program výpisy zapisovat místo na obrazovku do výstupního
+souboru (výstup výsledkù na obrazovku se vypne), jeho¾ jméno bude
+interaktivnì zadáno u¾ivatelem.  Daný výstupní soubor se bude pou¾ívat pro
+v¹echny výpisy od zvolení pøesmìrování a¾ do vypnutí pøesmìrování.  Pokud
+soubor ji¾ existuje, bude pøepsán.  Jméno souboru pro výstup se volí v¾dy
+pøi zapnutí pøesmìrování a je platné a¾ do ukonèení pøesmìrování.
+
+Bude-li výstup pøesmìrován do souboru, bude výpis naprosto stejný, jako v
+dávkovém de¾imu, to jest nebude obsahovat pomocné výpisy nebo èekání na
+stránkování pomocí <Enter>.  Pomocné výpisy (menu programu atd.) se
+samozøejmì budou i nadále vypisovat u¾ivateli na obrazovku, aby vìdìl, jak
+program ovládat, a do souboru se nepøesmìrovávají.
+
+Název souboru bude bez háèkù, èárek a mezer, ale mù¾e obsahovat i relativní
+cestu.  Pokud soubor nepùjde otevøít, napø. byl zadán neexistující adresáø,
+soubor se nepodaøilo otevøít, program na to zareaguje chybovým výpisem a
+vrátí se zpìt do menu.  To tedy znamená, ¾e nebudete rozli¹ovat rùzné
+oddìlovaèe adresáøù (/ - UNIX, \ - Windows), proto¾e je starostí u¾ivatele,
+aby zadal relativní cestu ve správném zápisu právì pou¾ívaného operaèního
+systému.
+
+
+4.2 Dávkový re¾im
+======================================================================
+
+V dávkovém re¾imu program vypí¹e výpisy zadané dal¹ími parametry pøíkazové
+øádky (viz funkce programu vý¹e) a skonèí, tzn. nepøechází do
+interaktivního re¾imu.  Pøi práci v dávkovém re¾imu nesmí od u¾ivatele
+po¾adovat ¾ádné vstupy, tj. ani <Enter> apod. pro stránkování.  Ve¹keré
+výpisy pùjdou na standardní výstup (chybové výpisy na standardní chybový
+výstup) a bude mo¾né je pøesmìrovat do souboru prostøedky shellu.
+
+Pro jedno spu¹tìní mù¾e být zadán pouze jeden z parametrù pro dávkový re¾im. 
+Není tedy mo¾né zadat napø.
+  c:\>snort.exe data.dat -typy -help
+èi libovolné jiné kombinace parametrù.
+
+
+5. Mo¾ná roz¹íøení pøiná¹ející vy¹¹í bodový zisk
+======================================================================
+
+Vlastní roz¹íøení jsou mo¾ná, musí mít v¹ak srovnatelnou obtí¾nost.
+Ka¾dé roz¹íøení musí být pøístupné jak v dávkovém tak v interaktivním
+re¾imu, stejnými mechanismy jako standardní funkce.
+
+Námìty na roz¹íøení:
+- výstup (3) roz¹íøený o seznam adres strojù, ze kterých byly pokusy
+  uèinìny
+- mo¾nost zadání IP adresy zdroje datového souboru a rozli¹ení zdrojové a
+  cílové adresy v záznamech (napø. záznamy "WEB-MISC 403 Forbidden" je mají
+  prohozené)
+
+
+6. Poznámky
+======================================================================
+
+- Potøebné informace ze vstupního souboru naètìte do vhodnì navr¾ených
+  dynamických pamì»ových struktur, které musí obsahovat alespoò jednosmìrnì
+  zøetìzený(é) seznam(y) -- nutná podmínka.  Kromì toho si zvolte podle
+  libosti dal¹í datové struktury, které budete pova¾ovat za vhodné pro
+  zpracování (hash tabulky atp.).  Do pamìti neukládejte ¾ádné nepotøebné
+  informace.
+
+- Vstupní soubor bude program èíst pouze jednou -- nepou¾ívejte opakované
+  ètení souboru -- a nebude pou¾ívat ¾ádné pomocné soubory pro ukládání 
+  mezivýsledkù.
+
+- Pametry pøíkazové øádky, kterými se volí funkce programu v dávkovém
+  re¾imu, budou zadány v¾dy pouze malými písmeny.
+
+- V¹echny údaje musí být souèástí programu, napøíklad nepou¾ívejte
+  text helpu ètený ze samostatného souboru.
+
+- Dùslednì kontrolujte v¹echny mo¾né problémy pøi bìhu programu, napø.
+  pøíli¹ dlouhou øádku, nedostatek pamìti, neotevøené soubory.  Program
+  musí také slu¹nì zvládnout nedostatky ve vstupech, napø. ¹patný název
+  souboru, neexistující parametr nebo ¹patný formát vstupních dat.  Na
+  takto zji¹tìné problémy vhodnì reagujte (minimálnì chybovým výpisem na
+  standardní chybový výstup).
+
+- Nespoléhejte se na to, ¾e data v poskytnutém vstupním souboru jsou
+  "bezproblémová". Pøi hodnocení bude program testován na jiných vstupních
+  datech stejného formátu, ve kterých mohou být problémové èásti.
+
+= EOF ================================================================
